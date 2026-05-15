@@ -1,0 +1,6 @@
+faiss==1.5.3
+groq==1.2.0
+numpy==2.4.4
+sentence_transformers==5.5.0
+streamlit==1.51.0
+youtube_transcript_api==1.2.4
