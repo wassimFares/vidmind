@@ -5,6 +5,11 @@ from chunking import chunk_text
 from vector_store import create_index, search
 from llm import ask
 
+st.set_page_config(
+    page_title="VidMind",
+    page_icon="🧠"
+)
+
 with st.spinner("Loading model..."):
     from embeddings import create_embeddings, embed_query
 
